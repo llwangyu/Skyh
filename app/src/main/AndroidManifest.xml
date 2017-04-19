@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="android.com.skyh">
+
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-feature android:name="android.hardware.camera" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
@@ -17,74 +18,81 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.WelcomeActivity" android:screenOrientation="portrait">
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".base.BaseActivity"
-            />
-        <activity android:name=".activity.LoginActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".activity.ZwhActivity"
+        <activity android:name=".base.BaseActivity" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ZwhActivity"
             android:configChanges="screenSize|keyboardHidden|orientation"
-            android:theme="@style/NoBackgroundAndTitleMain"
-            />
-        <activity android:name=".activity.DkxxActivity"
+            android:theme="@style/NoBackgroundAndTitleMain" />
+        <activity
+            android:name=".activity.DkxxActivity"
             android:configChanges="screenSize|keyboardHidden|orientation"
-            android:theme="@style/NoBackgroundAndTitleMain"
-            />
-        <activity android:name=".activity.DydhActivity"
+            android:theme="@style/NoBackgroundAndTitleMain" />
+        <activity
+            android:name=".activity.DydhActivity"
             android:configChanges="screenSize|keyboardHidden|orientation"
-            android:theme="@style/NoBackgroundAndTitleMain"
-            />
-        <activity android:name=".activity.DxzhActivity"
+            android:theme="@style/NoBackgroundAndTitleMain" />
+        <activity
+            android:name=".activity.DxzhActivity"
             android:configChanges="screenSize|keyboardHidden|orientation"
-            android:theme="@style/NoBackgroundAndTitleMain"
-            />
-        <activity android:name=".activity.MainActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".activity.MeetingActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".activity.TjListActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".base.ChooseUserActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".base.ChooseDjdzzActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".activity.DkxxDetailActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".activity.DydhDetailActivity"
-            android:screenOrientation="portrait"
-            />
-        <service android:name=".service.DownloadService"/>
-        <activity android:name=".activity.ZwhDetailActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".activity.DxzhDetailActivity"
-            android:screenOrientation="portrait"
-            />
+            android:theme="@style/NoBackgroundAndTitleMain" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MeetingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TjListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".base.ChooseUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".base.ChooseDjdzzActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DkxxDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DydhDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".service.DownloadService" />
+
+        <activity
+            android:name=".activity.ZwhDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DxzhDetailActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".base.ImagesDetailActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.ImagesDetail" />
+        <activity
+            android:name=".activity.Main2Activity"
+            android:label="@string/title_activity_main2"></activity>
     </application>
 
 </manifest>

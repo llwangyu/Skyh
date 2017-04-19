@@ -36,10 +36,6 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     //compile 'com.android.support:appcompat-v7:21.0.0'
 
-    compile 'com.android.support:support-v4:25.2.0'
-    compile 'com.orhanobut:logger:1.15'
-    compile 'com.squareup.picasso:picasso:2.3.2'
-    compile 'com.github.chrisbanes.photoview:library:1.2.2'
     compile files('libs/androidannotations-api-3.2.jar')
     compile files('libs/commons-net-3.0.1.jar')
     compile files('libs/httpmime-4.2.5.jar')
@@ -48,6 +44,11 @@ dependencies {
     compile files('libs/jackson-databind-2.5.0.jar')
     compile files('libs/nineoldandroids-2.4.0.jar')
     compile files('libs/universal-image-loader-1.9.4-SNAPSHOT.jar')
-    compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
 
+    compile 'com.android.support:support-v4:25.2.0'
+    compile 'com.orhanobut:logger:1.15'
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile 'com.github.chrisbanes.photoview:library:1.2.2'
+    compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
 }
