@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#66E8E4E4"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/event_report_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/activity_toolbar"
+        />
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="支部委员会记录"
+               android:gravity="center"
+               android:padding="10dp"
+               android:textSize="20sp"
+               android:textColor="#000"
+               />
+           <LinearLayout
+               android:background="#ece3e3"
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <LinearLayout
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="8dp"
+                   android:layout_marginBottom="8dp"
+                   android:layout_width="0dp"
+                   android:layout_weight="1.2"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="党组织名称："
+                       android:layout_gravity="center"
+                       android:textColor="#000"
+                       android:textSize="15sp"
+                       android:id="@+id/textView3" />
+
+                   <EditText
+                       android:id="@+id/dzzmc_edit"
+                       android:background="@drawable/layout_bg"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=""
+                       android:padding="5dp"
+                       android:textColor="#000"
+                       android:textSize="15sp"
+                       />
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="8dp"
+                   android:layout_marginBottom="8dp"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_gravity="center"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="主持人："
+                       android:layout_gravity="center"
+                       android:textColor="#000"
+                       android:textSize="15sp"
+                       />
+                   <EditText
+                       android:id="@+id/zcr_edit"
+                       android:background="@drawable/layout_bg"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=""
+                       android:padding="5dp"
+                       android:textColor="#000"
+                       android:textSize="15sp"
+                       />
+
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="8dp"
+                   android:layout_marginBottom="8dp"
+                   android:layout_width="0dp"
+                   android:layout_weight="1.1"
+                   android:layout_gravity="center"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="召开时间："
+                       android:textColor="#000"
+                       android:textSize="15sp"
+                       />
+                   <TextView
+                       android:id="@+id/zkrq_text"
+                       android:background="@drawable/layout_bg"
+                       android:layout_width="match_parent"
+                       android:layout_marginRight="15dp"
+                       android:layout_height="wrap_content"
+                       android:text=""
+                       android:padding="5dp"
+                       android:textColor="#000"
+                       android:textSize="15sp"
+                       />
+
+               </LinearLayout>
+
+           </LinearLayout>
+           <LinearLayout
+               android:background="#ece3e3"
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <LinearLayout
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="8dp"
+                   android:layout_marginBottom="8dp"
+                   android:layout_width="0dp"
+                   android:layout_weight="2"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="参加人员："
+                       android:textColor="#000"
+                       android:textSize="15sp"
+                       />
+                   <EditText
+                       android:id="@+id/cjry_edit"
+                       android:background="@drawable/layout_bg"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=""
+                       android:layout_marginLeft="10dp"
+                       android:padding="5dp"
+                       android:textColor="#000"
+                       android:textSize="15sp"
+                       />
+
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="8dp"
+                   android:layout_marginBottom="8dp"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="记录人："
+                       android:textColor="#000"
+                       android:textSize="15sp"
+                       />
+                   <EditText
+                       android:id="@+id/jlr_edit"
+                       android:background="@drawable/layout_bg"
+                       android:layout_width="match_parent"
+                       android:layout_marginRight="15dp"
+                       android:layout_height="wrap_content"
+                       android:text=""
+                       android:padding="5dp"
+                       android:textColor="#000"
+                       android:textSize="15sp"
+                       />
+
+               </LinearLayout>
+
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_marginTop="10dp"
+               android:focusable="true"
+               android:focusableInTouchMode="true"
+               android:layout_width="match_parent"
+               android:orientation="vertical"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:id="@+id/other_text"
+                   android:background="#fff"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textColor="#000"
+                   android:textSize="20sp"
+                   android:text="学习内容"
+                   android:paddingLeft="10dp"
+                   android:gravity="center"
+                   android:paddingTop="5dp"
+                   android:paddingBottom="5dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:paddingRight="10dp"
+                   />
+               <EditText
+                   android:id="@+id/other_edit"
+                   android:visibility="gone"
+                   android:background="#fff"
+                   android:padding="6dp"
+                   android:inputType="text"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:minHeight="120dp"
+                   android:hint="@string/qtbcty_content"
+                   android:gravity="start"
+                   android:textSize="16sp"
+                   android:layout_margin="10dp"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:background="#fff"
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:layout_height="180dp">
+
+               <FrameLayout
+                   android:layout_margin="10dp"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content">
+                   <ImageView
+                       android:id="@+id/picture_view"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                       android:scaleType="centerCrop"
+                       android:src="@mipmap/tx"
+                       />
+                  <LinearLayout
+                      android:id="@+id/cs_tp"
+                      android:background="@drawable/corners_red"
+                      android:layout_gravity="center"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="点击上传图片"
+                          android:paddingLeft="15dp"
+                          android:paddingRight="15dp"
+                          android:paddingBottom="6dp"
+                          android:layout_marginTop="6dp"
+                          android:textColor="#fff"
+                          />
+
+                  </LinearLayout>
+
+               </FrameLayout>
+
+               <FrameLayout
+                   android:layout_margin="10dp"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content">
+                   <ImageView
+                       android:id="@+id/ly_view"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:scaleType="centerCrop"
+                       android:layout_gravity="center"
+                       android:src="@mipmap/sb"
+                       />
+                   <LinearLayout
+                       android:id="@+id/cs_yp"
+                       android:background="@drawable/corners_red"
+                       android:layout_gravity="center"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+                       <TextView
+                           android:id="@+id/ly_text"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="开始会议"
+                           android:paddingLeft="25dp"
+                           android:paddingRight="25dp"
+                           android:paddingBottom="6dp"
+                           android:layout_marginTop="6dp"
+                           android:textColor="#fff"
+                           />
+
+                   </LinearLayout>
+               </FrameLayout>
+           </LinearLayout>
+
+
+
+
+
+
+               <Button
+                   android:layout_marginTop="10dp"
+                   android:id="@+id/schyjl_btn"
+                   android:layout_marginBottom="12dp"
+                   android:background="#fff"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textColor="#000"
+                   android:textSize="20sp"
+                   android:text="@string/send_record"
+                    android:padding="10dp"
+                   android:gravity="center"
+
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+
+                   />
+
+
+       </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+
+
+    <style name="AppTheme" parent="ActivityTheme"/>
+
+    <style name="ActivityTheme" parent="android:Theme.Light">
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="NoBackgroundAndTitleMain" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <style name="AppTheme.ImagesDetail">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+    </style>
+</resources>

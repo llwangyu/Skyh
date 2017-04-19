@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#e5e5e5">
+    <include
+            android:id="@+id/web_reg_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/activity_toolbar"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/white">
+    <ListView
+            android:id="@+id/house_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#e5e5e5"
+            android:dividerHeight="2dip"
+            android:groupIndicator="@null"
+            android:indicatorLeft="@null" />
+    </RelativeLayout>
+
+</LinearLayout>

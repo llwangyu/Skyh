@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">三会一课</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="alert_info">数据加载中...</string>
+    <string name="sc_info">数据上传中...</string>
+    <string name="alert_info1">登录中...</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">用户名</string>
+    <string name="prompt_password">登录密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">密码太短了</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_base_acticity">BaseActicity</string>
+    <string name="server_url">http://10.208.4.26/upload/versionUpdate/version.xml</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="take_photo">拍照</string>
+    <string name="record">录音</string>
+    <string name="return_text">返回</string>
+    <string name="hyjy">会议纪要</string>
+    <string name="qtbcty">其他补充提议</string>
+    <string name="hytitle">会议标题</string>
+    <string name="content">请输入会议内容</string>
+    <string name="title">请输入会议标题</string>
+    <string name="send_record">上传会议记录</string>
+    <string name="qtbcty_content">其他补充提议</string>
+    <string name="permission">权限(permission)</string>
+    <string name="no_permissions">应用需要必要的运行权限</string>
+
+
+    <string name="settings">设置</string>
+    <string name="luyin">音频</string>
+    <string name="paizhao">拍照</string>
+    <string name="shyk">三会一课</string>
+    <string name="shyktjb">三会一课统计表</string>
+    <string name="zwh">支委会</string>
+    <string name="dydh">党员大会</string>
+    <string name="dxzh">党小组会</string>
+    <string name="dk">党课</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+    <string name="qhyh">切换用户</string>
+    <string name="tcdl">退出登录</string>
+</resources>
