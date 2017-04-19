@@ -290,7 +290,7 @@ public class DkxxActivity extends BaseActivity {
     };
     class imgUploadThread extends Thread {
         @Override
-        public void run() {
+        public void run() {//fdsfds
             FileInputStream in = null ;
             try {
                 in = new FileInputStream(tempPhotoFile);
